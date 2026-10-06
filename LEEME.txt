@@ -1,0 +1,28 @@
+POLÍGONOS MINEROS VALIDADOS
+Fecha: 06-10-2026, 9:29:27 a. m.
+Sistema de referencia: WGS 84 / EPSG:4326
+Polígonos validados exportados: 869
+
+CAMPOS INCLUIDOS
+OBJECTID: OBJECTID
+ID_OA: ID OA
+NOMBRE: Nombre del proyecto
+EMPRESA: Empresa
+REGION: Región
+COMUNA: Comuna
+MINERAL: Mineral/material
+TIPO: Tipo de instalación
+TAM_EMP: Tamaño empresa/faena
+CAT_SERN: Categoría SERNAGEOMIN
+PUERTO: Condición portuaria
+AUTO_STAT: Resultado automático
+OA_STAT: Resultado OA
+SERN_STAT: Resultado SERNAGEOMIN
+SERN_FAENA: Faena oficial
+SERN_INST: Instalación oficial
+SERN_REC: Recurso oficial
+REV_MAN: Decisión manual
+LONGITUD: Longitud
+LATITUD: Latitud
+OA_DIST_KM: Distancia OA (km)
+SERN_DSTKM: Distancia SERN (km)

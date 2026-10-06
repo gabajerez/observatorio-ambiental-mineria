@@ -1,0 +1,210 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.40.7-Bratislava">
+  <identifier>INV_PG_2022_v2</identifier>
+  <parentidentifier></parentidentifier>
+  <language>SPA</language>
+  <type>dataset</type>
+  <title>INVENTARIO DE GLACIARES 2022 v2</title>
+  <abstract>Inventario Publico de Glaciares, 2022_V2, de la Dirección General de Aguas.
+Corresponde a poligonos que representan a los Glaciares, digitalizados de diversas fuentes de imagenes 
+GEOMETRIA:
+Corresponde a Poligonos,
+COBERTURA:
+Nacional
+FUENTE:
+La geometria es digitalizada en base a diversas fuentes de Imagenes Satelitales, o Fotografias Aereas, en el campo "FUENTE_DIG" se menciona en especifico que imagen, o fotografia les dio origen.
+en especifico se usaron:
+- Landsat 8 (OLI) a 15 m de resolución (pansharpened)1 en combinación R: 7 (infrarrojo de onda corta), G: 5 (infrarrojo cercano), B: 3 (verde). 
+- Sentinel-2 a 10 m de resolución (multiespectral) en combinación R: 8 (infrarrojo cercano), G: 4 (rojo), B: 3 (verde). 
+- Spot 6 a 1,5 m de resolución en color visible. 
+- Imágenes obtenidas de “Base Map” de Arcmap: WorldView-2 y WorldView-4 (0,5 m), WorldView-3 (0,31 m) y GeoEye-1 (0,46 m) en color visible. 
+- Hycon del año 1955 a escala 1:70.000. 
+- PlanetScope a 3 m de resolución en color visible. 
+- Ortofotos vuelos aéreos LiDAR de los años 2015 y 2019 entre 1 y 1,8 m de resolución en color visible. 
+- Google Earth a 1,5 m de resolución en color visible. 
+- Pléiades a 0,5 m de resolución en color visible. 
+- RapidEye a 5 m de resolución en color visible. 
+Los datos satelitales se descargaron desde los siguientes sitios de internet: 
+- https://search.asf.alaska.edu 
+- https://search.earthdata.nasa.gov/ 
+- https://glovis.usgs.gov/app 
+- https://scihub.copernicus.eu/dhus/https://www.planet.com/explorer/ 
+ESCALA:
+1:30.000- 1:100.000
+ESCALA MAXIMA \ RANGO DE ESCALA:
+La que el Usuario estime.
+TIPO DE LEVANTAMIENTO:
+Analisis Satelital de Imagenes
+SISTEMA DE REFERENCIA:
+SIRGAS CHILE, Coordenadas Geograficas.
+ACTUALIZACIÓN DE LOS DATOS:
+Cada 10 años.
+ULTIMA ACTUALIZACIÓN:
+Julio 2023
+SIMBOLOGIA OFICIAL:
+No tiene.
+RESPONSABLE DE LA ACTUALIZACIÓN:
+Unidad de Glaciologia, DGA
+EN CASO DE ERRORES, COMUNICARSE CON:
+Geografo, Unidad de Glaciología, Alexis Segovia. mail: alexis.segovia@mop.gov.cl
+Cartografo, División de Estudios y Planificación: Guillermo Tapia Molina; mail: guillermo.tapia.m@mop.gov.cl
+EN CASO DE CONSULTAS COMUNICARSE CON:
+Geografo, Unidad de Glaciología, Alexis Segovia. mail: alexis.segovia@mop.gov.cl
+Cartografo, División de Estudios y Planificación: Guillermo Tapia Molina; mail: guillermo.tapia.m@mop.gov.cl
+LIMITACIONES DE USO:
+Información de Uso Libre
+GENERALIDADES IMPORTANTES DE LA METODOLOGIA:
+Entre los años 2018 y 2022 la Unidad de Glaciología y Nieves de la Dirección General de Aguas trabajó en la primera actualización del inventario 2014, en conjunto con una asesoría externa, que corresponde al Inventario Público de Glaciares versión 2022 (IPG2022). El IPG2022 está basado en imágenes satelitales de fecha promedio 2017, principalmente Landsat 8 (OLI) y Sentinel-2, de resolución espacial 15 y 10 m respectivamente. Para el caso de los glaciares rocosos, y dado su menor tamaño y dificultad de discriminar el hielo cubierto con el entorno rocoso, se utilizaron imágenes satelitales de una resolución menor a 3 m. 
+Debido a mejoras en la metodología, se agregaron al inventario 2022 varios cientos de glaciares, los cuales no habían sido detectados en el inventario anterior. Los glaciares del IPG2022 incorporados anteriormente en el IPG2014, fueron mapeados en esta ocasión hasta una superficie igual o superior a 0,1 ha. Por otra parte, en el IPG2022 se eliminaron varios cientos de manchones de nieve efímeros que en el IPG2014 habían sido considerados erróneamente como glaciares. 
+Con el fin de no subestimar el área de glaciares, se consideró siempre un principio precautorio para su mapeo. Concretamente, se asumió para este efecto un contorno máximo de extensión del área estimada de cada glaciar, cuyo límite en el caso de glaciares cubiertos y rocosos puede ser difícil de determinar en forma precisa, debido a la complejidad en discriminar en las imágenes satelitales el área de hielo cubierta por rocas y el suelo rocoso propiamente tal del entorno del glaciar.
+se actualizo El IPG2022, quedando en IPG2022 v2
+METODOLOGÍA DEL INVENTARIO PUBLICO DE GLACIARES:
+https://snia.mop.gob.cl/repositoriodga/handle/20.500.13000/125542
+
+CAMPO
+DESCRIPCIÓN
+ID_IDE
+ID Único para IDE MOP
+FUENTE
+Fuente de Unidad Generadora
+FECHA_ACTUALIZACION
+Fecha de Ultima Actualización o Publicación.
+LEVANTAMIENTO
+Tipo de Levantamiento Cartográfico.
+COD_GLA
+Código único del Glaciar definido según normas UNESCO/WGI (United Nations Educational, Scientific and Cultural Organization / World Glacier Inventory.
+NOM_GLA
+Nombre del Glaciar (en el caso que posea un nombre, de lo contrario S/N) (NOM_GLA es una copia de Campo NOMBRE, colocado para satisfacer norma IDE MOP)
+NOMBRE
+Nombre del Glaciar (en el caso que posea un nombre, de lo contrario S/N)
+CLASIFICA
+Clasificación primaria de glaciar según normas UNESCO/WGI
+AREA_KM2
+Área total en Km2, de hielo glaciar excluyendo afloramientos rocosos (nunataks)
+COD_REG
+Código Unico Territoral (Región) 
+COD_PROV
+Código Unico Territorial (Provincia)
+COD_COM
+Código Unico Territorial (Comuna)
+REGION
+Nombre de la Región donde se sitúa el glaciar
+PROVINCIA
+Nombre de la provincia donde se sitúa el glaciar.
+COMUNA
+Nombre de la comuna donde se sitúa el glaciar.
+DATUM
+Sistema de Georreferencia Geodésico (Datum de referencia para la digitalización)
+HUSO
+Zona UTM (Universal Transverse Mercator) en la que se sitúa el Glaciar.
+UTM_NORTE
+Coordenada UTM Norte, Metros (Centroide del Polígono)
+UTM_ESTE
+Coordenada UTM Este, Metros (Centroide del Polígono)
+FUENTE_DIG
+Fuente digitalización (Imagen satelital, Foto Aérea, Orto foto, LIDAR, etc.)
+FUEN_FECHA
+Fecha de la Fuente usada para la Digitalización.
+INVE_FECHA
+Año de Digitalización del Polígono glaciar
+NOM_CUEN
+Nombre de la Cuenca BNA (Banco Nacional de Aguas) donde se sitúa el Glaciar
+COD_CUEN
+Código BNA de la cuenca donde se sitúa el glaciar
+COD_SCUEN
+Código BNA de la subcuenca donde se sitúa el Glaciar
+COD_SSCUEN
+Código BNA de la SubSubcuenca donde se sitúa el Glaciar
+MZON_GLAC
+Macrozona Glaciológica donde se sitúa el Glaciar
+CH_CASQ
+En el caso que el Glaciar forme un campo de Hielo o Casquete de Hielo.
+CUBIERTO
+En el caso que el glaciar sea un Glaciar Cubierto
+LATITUD
+Coordenada Geográfica, Latitud en Grados, Minutos, Segundos del centroide del polígono
+LONGITUD
+Coordenada Geográfica, Longitud en Grados, Minutos, Segundos del centroide del polígono
+PERIMETRO
+Perímetro en Kilómetros del Polígono que representa al Glaciar.
+ORIENTA
+Orientación principal del Glaciar (N, NE, E, SE, S, SO, O, NO)
+HMEDIA
+Altitud Media del Glaciar en metros.
+HMAX
+Altitud Máxima del Glaciar en metros.
+HMIN
+Altitud Mínima del Glaciar en metros.
+PENDIENTE
+Pendiente media del glaciar en grados sexagesimales, notación decimal.
+ESP_MED
+Espesor medio del glaciar en metros.
+F_ESP_MED
+Fuente espesor medio (referencia a fórmula o estudio específico)
+VOL_KM3
+Volumen estimado del Glaciar en Km3
+EQ_AGUAKM3
+Equivalente en agua estimado del Glaciar en Km3
+WGI_1
+Clasificación Primaria del Glaciar según normas UNESCO/WGI (Tipo de Glaciar)
+WGI_2
+Clasificación Secundaria del Glaciar según normas UNESCO/WGI (forma del Glaciar)
+WGI_3
+Clasificación Terciaria del Glaciar según normas UNESCO/WGI (Característica Morfológica del frente del Glaciar)
+FRENTE_TER
+Clasificación de la Superficie pro glacial (Lago, Fiordo o Terrestre)
+RESOL_IMG
+Resolución espacial de la Imagen satelital o de la fuente utilizada en metros
+ERROR
+estimación del error del área digitalizada en Km2
+
+
+
+Inventario Publico de Glaciares, Corresponde a Poligonos que representan los glaciares, cobertura nacional, SIRGAS Chile, Actualizacion V1:14-06-2022; V2: Julio de 2023 Promedio fechas Imagenes Satelitales 2017.</abstract>
+  <keywords vocabulary="Buscar claves">
+    <keyword>Inventario</keyword>
+    <keyword>Glaciares</keyword>
+    <keyword>DGA</keyword>
+    <keyword>MOP</keyword>
+  </keywords>
+  <contact>
+    <name></name>
+    <organization></organization>
+    <position></position>
+    <voice></voice>
+    <fax></fax>
+    <email></email>
+    <role></role>
+  </contact>
+  <links/>
+  <dates/>
+  <fees></fees>
+  <constraints type="Limitaciones de uso">Sin Limitaciones, Información de uso libre al Interior y Exterior del MOP.
+</constraints>
+  <rights>Dirección General de Aguas&#xd;
+Unidad de Glaciologia.&#xd;
+</rights>
+  <encoding></encoding>
+  <crs>
+    <spatialrefsys nativeFormat="Wkt">
+      <wkt>GEOGCRS["SIRGAS-Chile",DATUM["SIRGAS-Chile",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Horizontal component of 3D system."],AREA["Chile - onshore and offshore. Includes Easter Island, Juan Fernandez Islands, San Felix, and Sala y Gomez."],BBOX[-59.87,-113.21,-17.5,-65.72]],ID["EPSG",9184]]</wkt>
+      <proj4>+proj=longlat +ellps=GRS80 +no_defs</proj4>
+      <srsid>63262</srsid>
+      <srid>520003262</srid>
+      <authid>EPSG:9184</authid>
+      <description>SIRGAS-Chile</description>
+      <projectionacronym>longlat</projectionacronym>
+      <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+      <geographicflag>true</geographicflag>
+    </spatialrefsys>
+  </crs>
+  <extent>
+    <spatial minz="0" maxz="0" dimensions="2" minx="-75.21733999999999298" miny="-55.46801299999999912" maxx="-67.54251399999999705" maxy="-17.66097299999999848" crs="EPSG:9184"/>
+    <temporal>
+      <period>
+        <start></start>
+        <end></end>
+      </period>
+    </temporal>
+  </extent>
+</qgis>

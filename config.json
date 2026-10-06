@@ -1,0 +1,46 @@
+{
+  "campo_id": "ID_POLIGONO",
+  "campo_etapa": null,
+  "mapa_etapas": {
+    "prospeccion": "prospeccion",
+    "operacion": "operacion",
+    "cierre": "cierre"
+  },
+  "carpetas_por_variable": {
+    "areas_protegidas": [
+      "Areas protegidas (1)"
+    ],
+    "sitios_prioritarios": [
+      "Sitios prioritarios (1)"
+    ],
+    "reservas_biosfera": [
+      "Reserva de la biosfera (1)"
+    ],
+    "glaciares": [
+      "Glaciares (1)"
+    ],
+    "humedales": [
+      "Inventario de humedales (1)"
+    ],
+    "planes_atmosfericos": [
+      "Planes de descontaminación (1)"
+    ],
+    "comunidades_indigenas": [
+      "Comunidades indigenas (1)"
+    ],
+    "areas_desarrollo_indigena": [
+      "Áreas de desarrollo Indigena (1)"
+    ],
+    "areas_pobladas": [
+      "Areas pobladas (1)"
+    ],
+    "atractivos_turisticos": [
+      "Atractivo Turístico (Nuevo)"
+    ],
+    "zonas_interes_turistico": [
+      "Zona de interés turístico (1)"
+    ]
+  },
+  "nota": "Unidad de cálculo: cada registro poligonal. ID_POLIGONO se conserva si existe o se genera como POL_<OBJECTID> con claves únicas/no nulas. ID_OA es atributo opcional; no se excluyen sus 81 valores nulos ni se disuelven geometrías. 869 polígonos esperados para el archivo inventariado. Campo etapa pendiente. Se incorporan todas las capas de cada carpeta, incluidas las subcarpetas turísticas.",
+  "campo_origen_id_poligono": "OBJECTID"
+}

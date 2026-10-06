@@ -1,0 +1,7 @@
+{
+  "n_total": 869,
+  "n_incluidos": 0,
+  "n_excluidos": 869,
+  "alcance": "Exploratorio: independencia no verificada; región, tamaño y autocorrelación espacial pueden confundir la asociación.",
+  "estado": "NO_EJECUTADO: se requieren al menos 5 índices completos por cada una de las tres etapas."
+}

@@ -1,0 +1,10 @@
+Versión por ID_POLIGONO, 06-10-2026.
+Pruebas sintéticas: aprobadas.
+IDs estables basados en OBJECTID; validación de unicidad;
+conservación de IDs existentes y ante reordenamiento de filas;
+distancias distintas para dos polígonos del mismo ID OA;
+inclusión de registro sin ID OA en distancia e índice;
+exportación GeoPackage; umbrales, faltantes y control de dependencia estadística.
+No se ha ejecutado sobre las capas reales de Gabriela.
+Entorno: geopandas 1.2.0; shapely 2.1.2; pyproj 3.8.0; scipy 1.17.0;
+pandas 2.2.3; numpy 2.3.5; pyogrio 0.13.0.
