@@ -1,0 +1,17 @@
+# Entornos y cachés
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+# Credenciales y archivos locales
+.env
+.env.*
+!.env.example
+config.local.json
+Thumbs.db
+Desktop.ini
+~$*
+# Capas originales: registrar únicamente con procedencia/licencia y decisión expresa
+/datos_originales/*
+!/datos_originales/README.md
+# No excluir resultados: la entrega actual los versiona expresamente.
